@@ -1,23 +1,29 @@
 ---
 blocks:
-  - tagline: ""
-    headline: Welcome to the Tina Starter.
+  - tagline: ''
+    headline: Welcome to the test page
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
-      `content/pages/home.md`, components from `components/blocks`, and puts them all together in `pages/[filename].tsx`, all
-      based on a schema defined in `.tina/schema.ts`.
+      `content/pages/home.md`, components from `components/blocks`, and puts
+      them all together in `pages/[filename].tsx`, all based on a schema defined
+      in `.tina/schema.ts`.
     actions:
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
       - label: Get Started
         type: button
         icon: true
         link: /posts
-      - label: Read Blog
+      - label: get stuffed
         type: link
         icon: false
         link: /posts
     image:
-      src: https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
+      src: >-
+        https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
       alt: Tina
     color: default
     _template: hero
@@ -42,7 +48,9 @@ blocks:
           name: palette
         title: Configurable Theme
         text: >-
-          Edit global theme configuration with Tina. Change your theme's primary color, font, or icon set.
+          Edit global theme configuration with Tina. Change your theme's primary
+          color, font, or icon set.
     color: tint
     _template: features
 ---
+
